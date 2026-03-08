@@ -1,0 +1,28 @@
+Coding Standards and Best Practices
+
+1. Code Style
+All Python code must follow PEP 8 guidelines. Use black for auto-formatting with a line length of 88 characters. Imports should be sorted using isort. Type hints are required for all public functions and methods.
+
+2. Naming Conventions
+- Classes: PascalCase (e.g., UserService, OrderManager)
+- Functions and variables: snake_case (e.g., get_user, total_count)
+- Constants: UPPER_SNAKE_CASE (e.g., MAX_RETRIES, DEFAULT_TIMEOUT)
+- Private methods: prefix with underscore (e.g., _validate_input)
+
+3. Documentation
+Every module must have a docstring explaining its purpose. Public functions require docstrings with parameters, return types, and examples. Use Google-style docstrings.
+
+4. Testing
+Aim for 80% code coverage minimum. Write unit tests for all business logic. Integration tests are required for API endpoints and database interactions. Use pytest as the test framework with fixtures for common setup.
+
+5. Error Handling
+Never catch generic exceptions without re-raising. Use custom exception classes for domain-specific errors. Always log exceptions with full stack traces. Return meaningful error messages to API consumers.
+
+6. Git Workflow
+Use feature branches with the naming convention: feature/TICKET-123-short-description. Squash commits before merging to main. All PRs require at least one approval. Write meaningful commit messages following conventional commits.
+
+7. Security
+Never commit secrets or API keys. Use environment variables for configuration. Validate and sanitize all user inputs. Apply the principle of least privilege for service accounts.
+
+8. Performance
+Profile code before optimizing. Use caching for expensive computations. Implement pagination for list endpoints. Monitor response times and set appropriate timeouts.

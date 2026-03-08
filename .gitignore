@@ -1,0 +1,15 @@
+# Virtual environment
+.venv/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# FAISS embedding cache (regenerated automatically)
+vector_store/faiss_index/embedding_cache.pkl
+
+# Logs
+logs/
+
+# Environment
+.env

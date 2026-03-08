@@ -1,0 +1,29 @@
+# ── Core framework ──────────────────────────────────
+fastapi>=0.110
+uvicorn[standard]>=0.29
+
+# ── Document processing ────────────────────────────
+langchain>=0.1
+langchain-community>=0.0.20
+pypdf>=4.0
+
+# ── Embeddings ──────────────────────────────────────
+sentence-transformers>=2.6
+
+# ── Vector stores ───────────────────────────────────
+chromadb>=0.4
+faiss-cpu>=1.7           # swap for faiss-gpu if CUDA available
+
+# ── LLM providers ──────────────────────────────────
+openai>=1.12
+anthropic>=0.20.0
+requests>=2.31
+
+# ── API middleware ──────────────────────────────────
+slowapi>=0.1.9
+python-multipart>=0.0.9
+
+# ── Utilities ───────────────────────────────────────
+python-dotenv>=1.0
+pydantic>=2.0
+numpy>=1.26
