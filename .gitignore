@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Virtual environment
 .venv/
 
@@ -13,3 +14,13 @@ logs/
 
 # Environment
 .env
+=======
+.env
+logs/
+repos/
+vector_store/faiss_index/
+__pycache__/
+*.pyc
+.venv/
+*.pkl
+>>>>>>> 32eea0a5fc9654b930a7b3352ad2e434e1fae62c
