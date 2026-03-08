@@ -97,7 +97,25 @@ curl -X POST http://localhost:8000/query \
   -H "Content-Type: application/json" \
   -d '{"question": "How do we deploy to production?"}'
 ```
+## 🌐 Live Demo
 
+Try the assistant live — no setup required:
+
+> **https://haematoxylic-unwillfully-raymonde.ngrok-free.app**
+
+> ⚠️ This demo runs on a local machine via ngrok. It may be offline 
+> outside business hours (IST). If the link is down, clone the repo 
+> and run it locally following the Quick Start guide above.
+
+**Demo API key:** `key-abc123`  
+Enter it in the sidebar to start asking questions.
+
+### Example questions to try:
+- `How do I add middleware in FastAPI?`
+- `How does Docker Compose handle networking between services?`
+- `What is the difference between a Deployment and a StatefulSet in Kubernetes?`
+- `How do I configure health checks in Docker Compose?`
+- 
 ## API Endpoints
 
 | Method | Path      | Description                                |
