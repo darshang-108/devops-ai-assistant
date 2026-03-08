@@ -1,0 +1,8 @@
+.env
+logs/
+repos/
+vector_store/faiss_index/
+__pycache__/
+*.pyc
+.venv/
+*.pkl
