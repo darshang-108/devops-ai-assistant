@@ -101,7 +101,7 @@ curl -X POST http://localhost:8000/query \
 
 Try the assistant live — no setup required:
 
-> **https://haematoxylic-unwillfully-raymonde.ngrok-free.app**
+> **[https://haematoxylic-unwillfully-raymonde.ngrok-free.app](https://haematoxylic-unwillfully-raymonde.ngrok-free.dev/)**
 
 > ⚠️ This demo runs on a local machine via ngrok. It may be offline 
 > outside business hours (IST). If the link is down, clone the repo 
